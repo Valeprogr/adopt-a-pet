@@ -1,0 +1,23 @@
+{
+  "name": "adopt-a-pet",
+  "version": "1.0.0",
+  "description": "this is a node-express exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valeprogr/adopt-a-pet.git"
+  },
+  "author": "valentina vittoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valeprogr/adopt-a-pet/issues"
+  },
+  "homepage": "https://github.com/Valeprogr/adopt-a-pet#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
