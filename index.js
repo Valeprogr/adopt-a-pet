@@ -10,6 +10,12 @@ app.get('/animals', (req,res)=>{
     res.send("<h1> List of pets</h1>")
 })
 
+app.get("/animals/:pet_type", (req,res,next)=>{   
+    console.log(req.params.pet_type);
+    res.send(`<h1>List of ${req.params.pet_type}</h1>`);
+})
+ 
+
 app.listen(PORT, ()=>{
     console.log(`Server started on ${PORT}.`);
 })
