@@ -20,6 +20,10 @@ app.get("/animals/:pet_type", (req,res,next)=>{
      ${pets[pet_type].map((pet,index)=>` <li>${pet.name}</li>`).join('')}</ul>`;
     res.send(html);
 })
+
+app.get("/animals/:pet_type/:pet_id", (req,res,next)=>{
+    
+})
  
 
 app.listen(PORT, ()=>{
