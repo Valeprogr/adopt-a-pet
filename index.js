@@ -22,7 +22,8 @@ app.get("/animals/:pet_type", (req,res,next)=>{
 })
 
 app.get("/animals/:pet_type/:pet_id", (req,res,next)=>{
-    
+    const {pet_type, pet_id} = req.params;
+    const animal =  pets[pet_type][pet_id];
 })
  
 
